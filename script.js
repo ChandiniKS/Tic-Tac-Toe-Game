@@ -68,14 +68,14 @@ const enableBoxes=()=>{
 
 
 const showwinner=(winner)=>{
-    msg.innerText=`Congradulations! winner is ${winner}`
+    msg.innerText=`Congratulations! winner is ${winner}`
     msgContsiner.classList.remove("hide")
     disableBoxes()
 
 }
 
 const showdraw=()=>{
-    msg.innerText="OOps match is draw"
+    msg.innerText="Oops!! Match is draw"
     msgContsiner.classList.remove("hide")
     disableBoxes()
 
